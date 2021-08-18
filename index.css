@@ -1,0 +1,21 @@
+body {
+    background-color: yellow;
+    margin: 40px 200px 40px;
+}
+
+/* Navigation Block */
+.navigation {
+    display: flex;
+}
+
+.navigation__DemoBtn {
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 1150px;
+    top: 47px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+}
