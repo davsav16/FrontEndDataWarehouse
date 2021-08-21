@@ -116,13 +116,31 @@ padding-top: 60px;
     border-radius: 50px;
     display: flex;
     margin-top: 80px;
-    padding: 80px 40px;
+    padding: 30px;
 }
 
 .highLevel_text {
     display: flex;
     flex-direction: column;
     width: 50%;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.highLevel_header h1 {
+    font-family:  Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%;
+    font-size: 3vw;
+}
+
+.highLevel_p p {
+    font-family: Avenir, "Century Gothic", sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    color: #4B5D68;
 }
 
 .highLevel_img {
@@ -132,5 +150,87 @@ padding-top: 60px;
 }
 
 .highLevel_img img {
-    width: 20vw;
+    width: 100%;
+}
+
+/* Features Styling */
+.features {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.features_intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.features_intro h1 {
+    text-align: center;
+    font-family: Avenir, "Century Gothic", sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.features_Pintro {
+    display: flex;
+    justify-content: center;
+}
+
+.features_Pintro p {
+    width: 50%;
+    font-family: Avenir, "Century Gothic", sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    text-align: center;
+}
+
+
+.features_points {
+    padding-top: 30px;
+}
+
+.features_two {
+    display: flex;
+}
+
+.features_point {
+    width: 50%;
+    display: flex;
+    margin: 20px;
+}
+
+.features_talkingPoints {
+    padding: 15px;
+}
+
+.features_talkingPoints h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 130%;
+    color: #212353;  
+}
+
+.features_talkingPoints p {
+    font-family: Avenir, "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+/* .features_graphic{
+    display: flex;
+    background-color: yellow;
+    justify-content: space-evenly;
+} */
+
+.features_graphic img {
+    width: 100%;
 }
